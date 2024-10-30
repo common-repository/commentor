@@ -1,0 +1,338 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Commentor\n"
+"POT-Creation-Date: 2024-02-13 09:29+0330\n"
+"PO-Revision-Date: 2024-02-13 09:31+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: commentor.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/commentor_admin_ajax.php:30
+msgid "Settings saved successfully"
+msgstr "تنظیمات با موفقیت ذخیره شد"
+
+#: includes/admin/commentor_admin_ajax.php:38 includes/commentor_ajax.php:165
+msgid "Your request encountered a problem"
+msgstr "درخواست شما با مشکل مواجه شد"
+
+#. Plugin Name of the plugin/theme
+#: includes/admin/commentor_admin_hooks.php:35
+#: includes/admin/commentor_admin_hooks.php:36
+msgid "Commentor"
+msgstr "کامنتور"
+
+#: includes/admin/commentor_admin_hooks.php:52
+#: includes/admin/commentor_admin_hooks.php:53
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: includes/commentor_ajax.php:28
+msgid "The comment cannot be empty"
+msgstr "نظر نمی تواند خالی باشد"
+
+#: includes/commentor_ajax.php:34 includes/commentor_ajax.php:97
+#: includes/commentor_ajax.php:129
+msgid "The information sent is defective"
+msgstr "اطلاعات ارسالی ناقص است"
+
+#: includes/commentor_ajax.php:42
+msgid "Post not available"
+msgstr "نوشته در دسترس نیست"
+
+#: includes/commentor_ajax.php:50
+msgid "It is not possible to comment on this post"
+msgstr "امکان درج نظر برای این نوشته وجود ندارد"
+
+#: includes/commentor_ajax.php:56
+msgid "Guest"
+msgstr "کاربر مهمان"
+
+#: includes/commentor_ajax.php:76 includes/commentor_ajax.php:105
+msgid "There was a problem, please try again"
+msgstr "مشکلی پیش آمده، مجددا تلاش کنید"
+
+#: includes/commentor_ajax.php:81
+msgid "Your reply has been sent"
+msgstr "پاسخ شما ثبت شد"
+
+#: includes/commentor_ajax.php:81
+msgid "Your comment has been sent"
+msgstr "نظر شما ثبت شد"
+
+#: includes/commentor_ajax.php:91
+msgid "You must be logged in to like"
+msgstr "برای پسندیدن باید وارد شوید"
+
+#: includes/commentor_ajax.php:110 templates/comment-item.php:13
+#: templates/comment-item.php:68
+msgid "Likes"
+msgstr "پسندیده شده"
+
+#: includes/commentor_ajax.php:112 includes/commentor_ajax.php:114
+#: templates/comment-item.php:15 templates/comment-item.php:70
+msgid "Like"
+msgstr "پسندیدن"
+
+#: includes/helpers.php:93
+msgid "Comment liked"
+msgstr "نظر پسندیده شد"
+
+#: includes/helpers.php:106
+msgid "Comment unliked"
+msgstr "پسندیدن نظر حذف شد"
+
+#: includes/helpers.php:157
+msgid "y"
+msgstr "سال"
+
+#: includes/helpers.php:158
+msgid "month"
+msgstr "ماه"
+
+#: includes/helpers.php:159
+msgid "d"
+msgstr "روز"
+
+#: includes/helpers.php:160
+msgid "h"
+msgstr "ساعت"
+
+#: includes/helpers.php:161
+msgid "m"
+msgstr "دقیقه"
+
+#: includes/helpers.php:172
+msgid "just now"
+msgstr "چند لحظه پیش"
+
+#: templates/admin/dashboard.php:2
+msgid "Dashboard"
+msgstr "داشبورد"
+
+#: templates/admin/dashboard.php:8 templates/comment.php:12
+#: templates/comment.php:13
+msgid "Comments"
+msgstr "نظرات"
+
+#: templates/admin/dashboard.php:9 templates/admin/dashboard.php:14
+#: templates/admin/dashboard.php:19 templates/admin/dashboard.php:24
+#: templates/admin/dashboard.php:29
+msgid "See all"
+msgstr "مشاهده همه"
+
+#: templates/admin/dashboard.php:13
+msgid "Pending"
+msgstr "در انتظار تائید"
+
+#: templates/admin/dashboard.php:18
+msgid "Approved"
+msgstr "تائید شده"
+
+#: templates/admin/dashboard.php:23
+msgid "Spam"
+msgstr "اسپم"
+
+#: templates/admin/dashboard.php:28
+msgid "Trash"
+msgstr "زباله دان"
+
+#: templates/admin/dashboard.php:34
+msgid "Top users"
+msgstr "برترین کاربران"
+
+#: templates/admin/dashboard.php:35
+msgid "List of users with the most comments"
+msgstr "لیست کاربران با بیشترین تعداد نظر"
+
+#: templates/admin/dashboard.php:43
+msgid "Top posts"
+msgstr "برترین نوشته ها"
+
+#: templates/admin/dashboard.php:44
+msgid "List of posts with the most comments"
+msgstr "لیست نوشته ها با بیشترین تعداد نظر"
+
+#: templates/admin/dashboard.php:52
+#, php-format
+msgid "%s comments"
+msgstr "%s نظر"
+
+#: templates/admin/dashboard.php:53
+#, php-format
+msgid "Published at %s"
+msgstr "منتشر شده در %s"
+
+#: templates/admin/settings.php:2
+msgid "Commentor settings"
+msgstr "تنظیمات کامنتور"
+
+#: templates/admin/settings.php:10
+msgid "Form direction"
+msgstr "چینش فرم"
+
+#: templates/admin/settings.php:14
+msgid "Left to right"
+msgstr "چپ به راست"
+
+#: templates/admin/settings.php:15
+msgid "Right to left"
+msgstr "راست به چپ"
+
+#: templates/admin/settings.php:21
+msgid "Primary color"
+msgstr "رنگ اصلی"
+
+#: templates/admin/settings.php:29
+msgid "Display count"
+msgstr "تعداد نمایش"
+
+#: templates/admin/settings.php:37
+msgid "Box background"
+msgstr "رنگ پس زمینه"
+
+#: templates/admin/settings.php:45
+msgid "Box padding"
+msgstr "فاصله داخلی"
+
+#: templates/admin/settings.php:49
+msgid "Enter in px"
+msgstr "به px وارد کنید"
+
+#: templates/admin/settings.php:54
+msgid "Distinguish the author"
+msgstr "متمایز کردن نویسنده"
+
+#: templates/admin/settings.php:58
+msgid "Yes"
+msgstr "بله"
+
+#: templates/admin/settings.php:59
+msgid "No"
+msgstr "خیر"
+
+#: templates/admin/settings.php:61
+msgid "Show author comments with different color"
+msgstr "نمایش نظرات نویسنده نوشته با ظاهر  متفاوت"
+
+#: templates/admin/settings.php:66
+msgid "Admin display name"
+msgstr "نام نمایشی مدیران"
+
+#: templates/admin/settings.php:70
+msgid ""
+"Replace administrators name with this name on comments (leave blank to "
+"disable)"
+msgstr ""
+"جایگزینی نام مدیران در نظرات با نام نمایشی وارد شده (برای غیرفعال شدن خالی "
+"رها کنید)"
+
+#: templates/admin/settings.php:76
+msgid "Save changes"
+msgstr "ذخیره تغییرات"
+
+#: templates/comment-form.php:2
+msgid "Add your comment..."
+msgstr "نظر خود را بنویسید ..."
+
+#: templates/comment-form.php:13
+msgid "Post comment"
+msgstr "ثبت نظر"
+
+#: templates/comment-guest-popup.php:3
+msgid "Thanks for comment"
+msgstr "ممنون برای نظر"
+
+#: templates/comment-guest-popup.php:4
+msgid "Please enter your name and email first or login"
+msgstr "لطفا نام و ایمیل خود را وارد کنید و یا اینکه وارد شوید"
+
+#: templates/comment-guest-popup.php:5
+msgid "Name should be entered"
+msgstr "نام باید وارد شود"
+
+#: templates/comment-guest-popup.php:6
+msgid "Enter your name"
+msgstr "نام خود را وارد کنید"
+
+#: templates/comment-guest-popup.php:8
+msgid "Email should be entered"
+msgstr "ایمیل باید وارد شود"
+
+#: templates/comment-guest-popup.php:9
+msgid "Enter your email"
+msgstr "ایمیل خود را وارد کنید"
+
+#: templates/comment-guest-popup.php:11
+msgid "Submit"
+msgstr "ثبت"
+
+#: templates/comment-item.php:20
+msgid "Replies"
+msgstr "پاسخ"
+
+#: templates/comment-item.php:24
+msgid "Load replies"
+msgstr "نمایش پاسخ ها"
+
+#: templates/comment-item.php:30
+msgid "Add new reply ..."
+msgstr "افزودن پاسخ جدید ..."
+
+#: templates/comment-item.php:41
+msgid "Send"
+msgstr "ارسال"
+
+#: templates/comment.php:16
+msgid "Comments will be displayed after approval by the administrator"
+msgstr "نظرات پس از تائید مدیر سایت نمایش داده می شود"
+
+#: templates/comment.php:39
+msgid "Load more comments"
+msgstr "بارگذاری بیشتر"
+
+#. Description of the plugin/theme
+msgid "Wordpress comment plugin"
+msgstr "افزونه کامنت وردپرس"
+
+#. Author of the plugin/theme
+msgid "Hossein Hasanpouri"
+msgstr "حسین حسن پوری"
+
+#. Author URI of the plugin/theme
+msgid "mailto:hosseinhp1198@gmail.com"
+msgstr ""
+
+#~ msgid "1m"
+#~ msgstr "1 ماه"
+
+#~ msgid "1h"
+#~ msgstr "1 ساعت"
+
+#~ msgid "1d"
+#~ msgstr "1 روز"
+
+#~ msgid "1week"
+#~ msgstr "1 هفته"
+
+#~ msgid "weeks"
+#~ msgstr "هفته"
+
+#~ msgid "months"
+#~ msgstr "ماه"
+
+#~ msgid "years"
+#~ msgstr "سال"

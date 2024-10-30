@@ -1,0 +1,103 @@
+.commentor-dashboard .statistics {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+}
+
+.commentor-dashboard .statistics .item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.commentor-dashboard .statistics .item .value {
+    font-size: 28px;
+    font-weight: 600;
+    color: #424242;
+}
+
+.commentor-dashboard .statistics .item .label {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #a2a2a2;
+}
+
+.commentor-dashboard .second-row {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 25px;
+}
+
+.commentor-dashboard .top-users {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+.commentor-dashboard .top-users .title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.commentor-dashboard .top-users .sub-title {
+    font-size: 14px;
+    margin-top: 4px;
+    color: #a2a2a2;
+}
+
+.commentor-dashboard .top-users .content .chart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.commentor-dashboard .top-posts .content {
+    margin-top: 12px;
+}
+
+.commentor-dashboard .top-posts .content .item {
+    display: flex;
+    align-items: center;
+}
+
+.commentor-dashboard .top-posts .content .item:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.commentor-dashboard .top-posts .content .item .row {
+    font-size: 18px;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #f5f1f1;
+    margin-right: 12px;
+}
+
+.commentor-dashboard .top-posts .content .item .details {
+    display: flex;
+    margin-top: 4px;
+    color: #a2a2a2;
+}
+
+.commentor-dashboard .top-posts .content .item .details .date {
+    margin-left: 12px;
+}
+
+.commentor-dashboard .top-posts .content table {
+    width: 100%;
+    border: 1px solid #efefef;
+}
+
+.commentor-dashboard.rtl .top-posts .content .item .row {
+    margin: 0 0 0 12px;
+}
+
+.commentor-dashboard.rtl .top-posts .content .item .details .date {
+    margin: 0 12px 0 0;
+}
+
